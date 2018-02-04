@@ -29,9 +29,9 @@ class User extends Component {
           <Table celled>
             <Table.Header>
               <Table.Row>
-                <Table.HeaderCell>Header</Table.HeaderCell>
-                <Table.HeaderCell>Header</Table.HeaderCell>
-                <Table.HeaderCell>Header</Table.HeaderCell>
+                <Table.HeaderCell>Name</Table.HeaderCell>
+                <Table.HeaderCell>E-mail</Table.HeaderCell>
+                <Table.HeaderCell>City</Table.HeaderCell>
                 <Table.HeaderCell>Actions</Table.HeaderCell>
               </Table.Row>
             </Table.Header>
@@ -39,10 +39,10 @@ class User extends Component {
             <Table.Body>
               <Table.Row>
                 <Table.Cell>
-                  <Label ribbon>First</Label>
+                  <Label ribbon>Gokhan Asar</Label>
                 </Table.Cell>
-                <Table.Cell>Cell</Table.Cell>
-                <Table.Cell>Cell</Table.Cell>
+                <Table.Cell>zgasar@gmail.com</Table.Cell>
+                <Table.Cell>Istanbul</Table.Cell>
                 <Table.Cell collapsing={true}>
                   <Button icon color="teal"><Icon name='list layout' /></Button>
                   <Button icon color="grey"><Icon name='edit' /></Button>
@@ -50,9 +50,9 @@ class User extends Component {
                 </Table.Cell>
               </Table.Row>
               <Table.Row>
-                <Table.Cell>Cell</Table.Cell>
-                <Table.Cell>Cell</Table.Cell>
-                <Table.Cell>Cell</Table.Cell>
+                <Table.Cell>Kadir Dogan</Table.Cell>
+                <Table.Cell>kadir.doggan@gmail.com</Table.Cell>
+                <Table.Cell>London</Table.Cell>
                 <Table.Cell collapsing={true}>
                   <Button icon color="teal"><Icon name='list layout' /></Button>
                   <Button icon color="grey"><Icon name='edit' /></Button>
@@ -60,9 +60,9 @@ class User extends Component {
                 </Table.Cell>
               </Table.Row>
               <Table.Row>
-                <Table.Cell>Cell</Table.Cell>
-                <Table.Cell>Cell</Table.Cell>
-                <Table.Cell>Cell</Table.Cell>
+                <Table.Cell>Mustafa Yıldız</Table.Cell>
+                <Table.Cell>mustafayildiz@gmail.com</Table.Cell>
+                <Table.Cell>Istanbul</Table.Cell>
                 <Table.Cell collapsing={true}>
                   <Button icon color="teal"><Icon name='list layout' /></Button>
                   <Button icon color="grey"><Icon name='edit' /></Button>
