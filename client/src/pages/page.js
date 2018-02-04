@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react';
 import PageHeader from './header';
-import PageFooter from './footer';
+import logo from './logo.png';
+import './page.css';
 
 class Page extends Component {
 
@@ -11,7 +12,7 @@ class Page extends Component {
 
   state = { visible: true }
 
-  toggleVisibility = () => this.setState({ visible: !this.state.visible })
+  // toggleVisibility = () => this.setState({ visible: !this.state.visible })
 
   render() {
     const { visible } = this.state
@@ -23,22 +24,29 @@ class Page extends Component {
             <Icon name='home' />
             Home
           </Menu.Item>
-          <Menu.Item name='gamepad'>
-            <Icon name='gamepad' />
-            Games
+          <Menu.Item name='crm'>
+            <Icon name='users' />
+            CRM
+          </Menu.Item>
+          <Menu.Item name='csm'>
+            <Icon name='sitemap' />
+            CMS
           </Menu.Item>
           <Menu.Item name='camera'>
-            <Icon name='camera' />
-            Channels
+            <Icon name='cubes' />
+            POM
+          </Menu.Item>
+          <Menu.Item name='camera'>
+            <Icon name='bar graph' />
+            Analytics
           </Menu.Item>
         </Sidebar>
         <Sidebar.Pusher>
-          <Segment basic>
+          <Segment basic style={{marginRight:'150px'}}>
             <PageHeader/>
-            <Button onClick={this.toggleVisibility}>Toggle Visibility</Button>
             {this.props.children}
-            <PageFooter/>
           </Segment>
+          <div class="logo"><img src={logo} alt="saat teknoloji logo"/></div>
         </Sidebar.Pusher>
       </Sidebar.Pushable>
     )

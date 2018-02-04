@@ -7,7 +7,7 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <h1>Footer</h1>
+        &copy; powered by saat teknoloji
       </footer>
     );
   }

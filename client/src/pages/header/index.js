@@ -15,7 +15,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h1>Welcome to ATLAST:CRM</h1>
+        <h1>Welcome to ATLAS SUITE</h1>
       </header>
     );
   }
